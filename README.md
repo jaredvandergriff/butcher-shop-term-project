@@ -2,16 +2,20 @@
 Term project from Webster
 
 Short Line POS
+
 This is a point of sale system for a butcher shop. It allows clerks and managers to login and help customers check out, manage inventory and employee accounts, and track sales throughout the day. 
 
 Authors
+
 Jared Vandergriff
 Contributing customer/tester: Jarryd Lapp                                
 
 Getting Started
+
 Download ShortLinePOS.zip and extract the .cpp and .h files to a folder on your computer. Optional: Extract the already populated ClerkList.txt, ProdList.txt, Receipt.txt, and DailyTotal.txt files, or just use the program to populate these files.
 
 Prerequisites
+
 Run using Windows XP or later. Visual Studio 2012 or later required.
 Installing
 Create a new project in Visual Studio, and add the following files to the project:
@@ -32,14 +36,8 @@ Station.cpp
 EntryFailException.h
 StationDriver.cpp (used to run the program)
 
-
-
-
-
-
-
-
 Running the program
+
 1. Answer prompt to type in a value for the station number to login to (1-4 are valid responses, anything else should not be accepted).
 2. Enter user ID (four digits, any other entry should not be accepted).
 3. Enter password (5 – 20 characters), and the system will try to validate your entry against the contents of the ClerkList.txt file. If you haven’t loaded the ClerkList.txt file, there is a hard-coded default user with the following login for testing purposes: 1111 , ADMIN
@@ -80,4 +78,5 @@ Running the program
 	21d. Checkout will proceed, with a receipt generated in Receipt.txt, and the daily total recorded 	in DailyTotal.txt.
 
 License
+
 This project is licensed under the MIT License 
